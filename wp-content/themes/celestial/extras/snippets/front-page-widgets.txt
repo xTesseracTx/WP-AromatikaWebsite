@@ -1,0 +1,7 @@
+*** Front Page Image Boxes ***
+
+This is a snippet from the live demo site of Celestial Reloaded for one of the boxed images with content:
+
+
+<div  class="imageframe" style="margin:10px auto;"><img src="path-to-image.jpg" alt="Short Description" /></div><h3>Box Heading</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed sodales nibh, vitae condimentum sapien. Quisque adipiscing cursus sem quis consequat. Proin nibh augue, consequat ut lorem et, pulvinar viverra neque.</p>
+

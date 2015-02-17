@@ -1,0 +1,13 @@
+<div class="st_contact">Your Name (required)<br />
+    [text* your-name class:en-textfield] </div>
+
+<div class="st_contact">Your Email (required)<br />
+    [email* your-email class:en-textfield] </div>
+
+<div class="st_contact">Subject<br />
+    [text your-subject class:en-textfield] </div>
+
+<div class="st_contact">Your Message<br />
+    [textarea your-message 80x] </div>
+
+<div class="st_contact">[submit "Submit Comment"]</div>

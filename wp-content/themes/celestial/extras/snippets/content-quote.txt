@@ -1,0 +1,23 @@
+*** Content Quote ***
+
+<blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing erat a ante etiam eget massa massat.</p><small>Someone famous <cite title="Source Title">Source Title</cite></small></blockquote>
+
+
+*** Adding Colour ***
+
+<blockquote style="border-color: #a0ce4e;"><p>Lorem ipsum dolor sit amet, consectetur adipiscing erat a ante etiam eget massa massat.</p><small>Someone famous <cite title="Source Title">Source Title</cite></small></blockquote>
+
+
+*** Quote Right Aligned ***
+
+<blockquote class="alignright">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante etiam eget massa massat.</p>
+<p><small>Someone famous <cite title="Source Title">Source Title</cite></small></p>
+</blockquote>
+
+*** Quote Left Aligned ***
+
+<blockquote class="alignleft">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante etiam eget massa massat.</p>
+<p><small>Someone famous <cite title="Source Title">Source Title</cite></small></p>
+</blockquote>

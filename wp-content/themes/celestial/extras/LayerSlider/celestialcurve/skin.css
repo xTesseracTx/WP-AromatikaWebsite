@@ -1,0 +1,220 @@
+/* LayerSlider Celestial Curve Skin */
+
+.ls-bottom-nav-wrapper { /* put the bottom nav above the curve */
+	z-index:1000;
+	margin-top: 1em;
+}
+
+.ls-celestialcurve .ls-playvideo {
+	width: 50px;
+	height: 50px;
+	margin-left: -25px;
+	margin-top: -25px;
+}
+
+.ls-celestialcurve .ls-playvideo,
+.ls-celestialcurve .ls-nav-sides,
+.ls-celestialcurve .ls-bottom-slidebuttons a,
+.ls-celestialcurve .ls-nav-prev,
+.ls-celestialcurve .ls-nav-next,
+.ls-celestialcurve .ls-nav-start,
+.ls-celestialcurve .ls-nav-stop,
+.ls-celestialcurve .ls-fullscreen,
+.ls-celestialcurve .ls-loading-container {
+	background-image: url(skin.png);	
+}
+
+.ls-celestialcurve .ls-playvideo {
+	background-position: -300px -150px;
+}
+
+.ls-celestialcurve .ls-playvideo:hover,
+.ls-celestialcurve .ls-vpcontainer:hover .ls-playvideo {
+	background-position: -375px -150px;
+}
+
+.ls-celestialcurve .ls-nav-prev {
+	background-position: 0px 0px;
+}
+
+.ls-celestialcurve .ls-nav-prev:hover {
+	background-position: 0px -75px;
+}
+
+.ls-celestialcurve .ls-nav-next {
+	background-position: -150px 0px;
+}
+
+.ls-celestialcurve .ls-nav-next:hover {
+	background-position: -150px -75px;
+}
+
+.ls-celestialcurve .ls-nav-start {
+	background-position: -300px 0px;
+}
+
+.ls-celestialcurve .ls-nav-start:hover,
+.ls-celestialcurve .ls-nav-start-active {
+	background-position: -300px -75px;
+}
+
+.ls-celestialcurve .ls-nav-stop {
+	background-position: -450px 0px;
+}
+
+.ls-celestialcurve .ls-nav-stop:hover,
+.ls-celestialcurve .ls-nav-stop-active {
+	background-position: -450px -75px;
+}
+
+.ls-celestialcurve .ls-bottom-slidebuttons a {
+	background-position: 0px -150px;
+}
+
+.ls-celestialcurve .ls-bottom-slidebuttons a.ls-nav-active,
+.ls-celestialcurve .ls-bottom-slidebuttons a:hover {
+	background-position: -75px -150px;
+}
+
+.ls-celestialcurve .ls-nav-sideleft {
+	background-position: -150px -150px;	
+}
+
+.ls-celestialcurve .ls-nav-sideright {
+	background-position: -225px -150px;	
+}
+
+
+
+.ls-celestialcurve .ls-nav-prev,
+.ls-celestialcurve .ls-nav-next {
+	width: 50px;
+	height: 50px;
+	z-index: 10000;
+	top: 50%;
+	margin-top: -22px;	
+	position: absolute;
+}
+
+.ls-celestialcurve .ls-nav-prev {
+	left: 10px;	
+}
+
+.ls-celestialcurve .ls-nav-next {
+	right: 10px;	
+}
+
+
+
+.ls-celestialcurve .ls-bottom-slidebuttons,
+.ls-celestialcurve .ls-bottom-slidebuttons a,
+.ls-celestialcurve .ls-nav-start,
+.ls-celestialcurve .ls-nav-stop,
+.ls-celestialcurve .ls-nav-sides {
+	height: 36px;
+}
+
+.ls-celestialcurve .ls-bottom-slidebuttons,
+.ls-celestialcurve .ls-bottom-slidebuttons a,
+.ls-celestialcurve .ls-nav-start,
+.ls-celestialcurve .ls-nav-stop,
+.ls-celestialcurve .ls-nav-sides {
+	display: inline-block;
+}
+
+.ls-celestialcurve .ls-bottom-slidebuttons,
+.ls-celestialcurve .ls-nav-start,
+.ls-celestialcurve .ls-nav-stop,
+.ls-celestialcurve .ls-nav-sides {
+	top: -44px;
+}
+
+.ls-celestialcurve .ls-nav-start,
+.ls-celestialcurve .ls-nav-stop {
+	width: 24px;
+}
+
+.ls-celestialcurve .ls-bottom-slidebuttons a {
+	width: 20px;
+}
+
+.ls-celestialcurve .ls-nav-sides {
+	width: 13px;	
+}
+
+
+
+.ls-celestialcurve .ls-thumbnail-hover {
+	bottom: 45px;
+	padding: 3px;
+	margin-left: 1px;
+}
+
+.ls-celestialcurve .ls-thumbnail-hover-bg {
+	background: #eee;
+	box-shadow: 0px 2px 12px -4px black;
+	border-radius: 4px;
+}
+
+.ls-celestialcurve .ls-thumbnail-hover span {
+	border: 5px solid #eee;
+	margin-left: -5px;
+}
+
+
+
+.ls-celestialcurve .ls-thumbnail {
+	top: 15px;
+}
+
+.ls-celestialcurve .ls-thumbnail-inner {
+	padding: 2px;
+	margin-left: -2px;
+	background: #fff;
+	border-radius: 4px;
+}
+
+.ls-celestialcurve .ls-thumbnail-slide a {
+	margin-right: 2px;
+}
+
+.ls-celestialcurve .ls-nothumb {
+	background: #eee;
+}
+
+
+
+.ls-celestialcurve .ls-shadow {
+	display: hidden;
+}
+
+
+
+.ls-celestialcurve .ls-loading-container {
+	width: 50px;
+	height: 50px;
+	margin-left: -25px;
+	margin-top: -22px;
+	background-position: -450px -150px;	
+}
+
+.ls-celestialcurve .ls-loading-indicator {
+	width: 22px;
+	height: 22px;
+	margin-top: 11px;
+	background-image: url(loading.gif);	
+}
+
+
+
+.ls-celestialcurve .ls-fullscreen {
+	width: 30px;
+	height: 30px;
+	right: 10px;
+	top: 10px;
+	background-position: -525px -150px;
+}
+
+.ls-celestialcurve .ls-fullscreen:hover {
+	background-position: -525px -190px;
+}

@@ -1,0 +1,9 @@
+*** Alert ***
+
+This is a collapsible alert box by clicking on the little x in the box.
+
+<div class="st_alert"><button type="button" class="st_close" data-dismiss="alert">×</button> <span>Default</span>You may want to double check before you proceed further.</div>
+
+*** Alert with Custom Background Colour ***
+
+<div class="st_alert" style="background-color: #99cc6a;"><button class="st_close" type="button" data-dismiss="alert">×</button> <span>Green</span>You may want to double check before you proceed further.</div>

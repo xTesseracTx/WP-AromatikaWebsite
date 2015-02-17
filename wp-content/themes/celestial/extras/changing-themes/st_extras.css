@@ -1,0 +1,588 @@
+/*
+Theme: Celestial
+Theme URI: http://www.st_styledthemes.com/celestial
+Author: Styled Themes
+Author URI: http://www.st_styledthemes.com
+Description: The extras.st_css file is used to maintain styles should you change themes and want to keep in-page elements the same. 
+
+License: GNU General Public License v3 or later
+License URI: license.txt
+
+Encounter WordPress Theme, Copyright (C) 2013 Andre Jutras 
+
+--------------------------------------------------------------
+WARNING: (BEFORE YOU MAKE ANY CHANGES)
+--------------------------------------------------------------
+Please do not edit style.st_css or any other Theme files directly.st_ If you do, your customizations will be lost 
+as soon as this theme is updated.
+
+WordPress and Styled Themes highly recommends using the Child Theme method for making changes.
+Read More: http://codex.st_wordpress.org/Child_Themes  
+
+*/
+
+
+/* Labels and Text Highlights
+-------------------------------------------------------------- */
+.st_label,
+.st_highlight {
+  font-weight: 600;
+  font-size:12px;
+  line-height: 14px;
+  color: #ffffff;
+  vertical-align: baseline;
+  white-space: nowrap;
+  background-color: #7b8187;
+}
+.st_highlight {
+	font-weight:normal;
+	font-size:12px;
+}
+.st_label,
+.st_highlight {
+  padding: 1px 8px 2px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.st_highlight {
+	margin:0 2px;
+	padding:0 8px 2px;
+}
+.st_label {
+	margin-right: 1em;
+}
+
+/* Focus Boxes
+-------------------------------------------------------------- */
+
+.st_focus-box {
+	margin:2.250em 0;
+	padding:10px 20px 15px;
+	border:1px solid #e8e6e6;
+	border-top:5px solid #bcc0c3;
+}
+.st_focus-box p:last-child {
+	margin-bottom:0;
+}
+.st_focus-box.shadow {
+	-webkit-box-shadow:  0px 6px 10px 0px rgba(0, 0, 0, .25);  
+    box-shadow:  0px 6px 10px 0px rgba(0, 0, 0, .25);
+}
+.st_focus-box.center {
+	text-align: center;
+}
+.st_focus-box.short {
+	width: 40%;
+}
+
+/* Alerts
+-------------------------------------------------------------- */
+/* Alert Group */
+.st_alert {
+  padding: 8px 35px 8px 14px;
+  margin: 2.5em 0;
+  color: #fff;
+  font-family:ubuntu, arial, helvetica,sans-serif;
+  font-style:italic;
+  font-size:.813rem;
+  background-color: #bcc0c3;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+}
+.st_alert span {
+	margin-right: 0.75rem;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.st_alert h4 {
+  margin: 0;
+}
+.st_alert .st_close {
+  position: relative;
+  top: 0;
+  right: -21px;
+  line-height: 20px;
+}
+.st_alert-block {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.st_alert-block > p,
+.st_alert-block > ul {
+  margin-bottom: 0;
+}
+.st_alert-block p + p {
+  margin-top: 5px;
+}
+.st_close {
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #fff;
+  opacity: 0.4;
+  filter: alpha(opacity=20);
+}
+.st_close:hover {
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+button.st_close {
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+
+/* Progress Bars
+-------------------------------------------------------------- */
+.st_progress-bar {
+	background: #e6e7e8;
+	height: 37px;
+	border-bottom:1px solid #f0f1f1;
+	position: relative;
+	margin-bottom: 10px;
+}
+.st_progress-bar-content {
+	background:#a0ce4e;
+	height: 37px;
+	border-bottom:1px solid #c0dc8f;
+
+}
+.st_progress-bar .st_progress-title {
+	font-size: 13px;
+	color: #ffffff;
+	font-weight: normal;
+	position: absolute;
+	top: 10px;
+	left: 13px;
+}
+.st_progress-bar .st_percentage {
+	font-size: 13px;
+	color: #626363;
+	font-weight: normal;
+	position: absolute;
+	top: 10px;
+	left: 90%;
+}
+.st_progress {
+  overflow: hidden;
+  height: 35px;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.st_progress .st_bar {
+  width: 0%;
+  height: 100%;
+  color: #ffffff;
+  float: left;
+  padding-top:7px;
+  font-size: 1em;
+  text-align: center;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #9b9fa3;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.st_progress-danger .st_bar,
+.st_progress .st_bar-red {
+  background-color: #da5f55;
+}
+.st_progress-success .st_bar,
+.st_progress .st_bar-green {
+  background-color: #a0ce4e;
+}
+
+.st_progress-info .st_bar,
+.st_progress .st_bar-blue {
+  background-color: #6bbbe3;
+}
+.st_progress-warning .st_bar,
+.st_progress .st_bar-orange {
+  background-color: #dba43a;
+}
+
+
+/* 14 Drop Caps
+-------------------------------------------------------------- */
+.st_dropcap {
+	display: block;
+	width: 49px;
+	height: 46px;
+	padding-top: 6px;
+	padding-right:3px;
+	float:left;
+	margin:5px 15px 0 0;
+	background: #aaacaf url('images/dropcap.st_png') 0 0 no-repeat;
+	font: normal 30px "Lucida Calligraphy",georgia;
+	color: #fff;
+	text-align:center;
+}
+
+/* Custom Lists with Genericons
+-------------------------------------------------------------- */
+
+/* basic list styles */
+ul.st_small_circle,
+ul.st_small_circle ul,
+ul.st_small_circle ul ul {
+	list-style-type:circle;
+}
+ol.st_upper-alpha {
+	list-style-type:upper-alpha;
+}
+ol.st_lower-alpha,
+ol.st_lower-alpha ol,
+ol.st_lower-alpha ol ol,
+ol.st_upper-alpha ol,
+ol.st_upper-alpha ol ol {
+	list-style-type:lower-alpha;
+}
+ol.st_decimal-leading-zero {
+	list-style-type:decimal-leading-zero;
+}
+
+
+/* list styles with images */
+.st_dot, 
+.st_dash,
+.st_square,
+.st_arrow,
+.st_square-arrow,
+.st_round-arrow,
+.st_circles,
+.st_grid,
+.st_checkmark,
+.st_circle {
+	margin-left: 20px;
+	list-style: none;
+}
+.st_dot li,
+.st_dash li,
+.st_square li,
+.st_circle li  {
+	padding-left: 24px;
+}
+
+.st_arrow li,
+.st_square-arrow li,
+.st_round-arrow li,
+.st_circles li,
+.st_grid li,
+.st_checkmark li {
+	padding-left: 26px;
+}
+
+
+.st_dot li {background: url('images/sprite-list.png') -360px 0 no-repeat;}
+.st_dash li {background: url('images/sprite-list.png') -320px -80px no-repeat;}
+.st_square li {background: url('images/sprite-list.png') -280px -160px no-repeat;}
+.st_arrow li {background: url('images/sprite-list.png') -240px -240px no-repeat;}
+.st_square-arrow li {background: url('images/sprite-list.png') -200px -320px no-repeat;}
+.st_round-arrow li {background: url('images/sprite-list.png') -160px -400px no-repeat;}
+.st_circles li {background: url('images/sprite-list.png') -120px -480px no-repeat;}
+.st_grid li {background: url('images/sprite-list.png') -80px -560px no-repeat;}
+.st_checkmark li {background: url('images/sprite-list.png') -40px -640px no-repeat;}
+.st_circle li {background: url('images/sprite-list.png') 0 -720px no-repeat;}	
+
+
+
+/* Tables
+-------------------------------------------------------------- */
+.st_table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.st_table th,
+.st_table td {
+  padding: 8px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: middle;
+  border-top: 1px solid #dddddd;
+}
+.st_table th {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.st_table thead th {
+  vertical-align: bottom;
+}
+.st_table-bordered {
+  border: 1px solid #dddddd;
+  border-collapse: separate;
+  *border-collapse: collapse;
+  border-left: 0;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+.st_table-bordered th,
+.st_table-bordered td {
+  border-left: 1px solid #dddddd;
+}
+.st_table-bordered thead:first-child tr:first-child th,
+.st_table-bordered tbody:first-child tr:first-child th,
+.st_table-bordered tbody:first-child tr:first-child td {
+  border-top: 0;
+}
+
+.st_table-striped thead tr {
+	background-color: #7b8187;
+	color:#fff;
+	
+}
+
+.st_table-striped thead tr a {
+	color:#fff;
+}
+.st_table-striped tbody tr:nth-child(odd) td,
+.st_table-striped tbody tr:nth-child(odd) th {
+	background-color: #e9e9e9;
+}
+.st_table-striped tbody tr:nth-child(even) td,
+.st_table-striped tbody tr:nth-child(even) th {
+	background-color: #fff;
+}
+.st_table th,
+.st_table td {
+	padding:6px;
+}
+.st_table-bordered thead:first-child tr:first-child th:first-child,
+.st_table-bordered tbody:first-child tr:first-child td:first-child {
+  -webkit-border-top-left-radius: 6px;
+  border-top-left-radius: 6px;
+  -moz-border-radius-topleft: 6px;
+}
+.st_table-bordered thead:first-child tr:first-child th:last-child,
+.st_table-bordered tbody:first-child tr:first-child td:last-child {
+  -webkit-border-top-right-radius: 6px;
+  border-top-right-radius: 6px;
+  -moz-border-radius-topright: 6px;
+}
+.st_table-bordered thead:last-child tr:last-child th:first-child,
+.st_table-bordered tbody:last-child tr:last-child td:first-child,
+.st_table-bordered tfoot:last-child tr:last-child td:first-child {
+  -webkit-border-radius: 0 0 0 6px;
+  -moz-border-radius: 0 0 0 6px;
+  border-radius: 0 0 0 6px;
+  -webkit-border-bottom-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  -moz-border-radius-bottomleft: 6px;
+}
+.st_table-bordered thead:last-child tr:last-child th:last-child,
+.st_table-bordered tbody:last-child tr:last-child td:last-child,
+.st_table-bordered tfoot:last-child tr:last-child td:last-child {
+  -webkit-border-bottom-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  -moz-border-radius-bottomright: 6px;
+}
+table [class*=span],
+.st_row-fluid table [class*=span] {
+  display: table-cell;
+  float: none;
+  margin-left: 0;
+}
+
+/* Content Images
+------------------------------------------------- */
+ul.thumbnails {
+	margin-left: 0 !important;
+}
+ul.thumbnails .thumbnail .imageframe {
+	display: inline-block;
+	margin: 0 auto 1em;
+	padding:8px;
+	background-color:#f6f6f6;
+	border:1px solid #d2d2d2;
+}
+
+/* Dividers
+-------------------------------------------------- */
+.st_dividers {
+	clear:both;
+	margin: 2.75em 0;
+}
+.st_single{height:1px;background-color:#cdcdcd;}
+.st_double{height:6px;border-top:1px solid #cdcdcd; border-bottom:1px solid #cdcdcd;}
+.st_dotted{border-top:2px dotted #cdcdcd;}
+.st_dashed{border-top:2px dashed #cdcdcd;}
+.st_shadow{background:transparent url('images/shadow-divider.png') no-repeat top center; height:14px;width:100%;}
+
+/* 17 Pricing Tables
+-------------------------------------------------------------- */
+.st_price-list {
+	list-style:none;
+	margin-left:0;
+}
+.st_price-list li {
+	background-image:none;
+	border:1px solid #dddcdc;
+	border-bottom:0;
+	margin:0;
+	padding:8px 0px;
+	text-align:center;
+}
+.st_price-list li:last-child{
+	border-bottom:1px solid #dddcdc;
+	margin-bottom:20px;
+}
+.st_price-title,
+.st_price {
+	padding:12px 0;
+}
+.st_price-title {
+	font: normal 26px merienda, georgia;
+	font-size: 1.625em;
+	color:#fff;
+}
+.st_price {
+	font:bold 36px arial, sans-serif;
+	font-size: 2.50em;
+	color:#54575b;
+}
+.st_price sup {
+	font-size:20px;
+	font-size: 0.5em;
+	font-weight:300;
+}
+.st_price-month {
+	font-size:22px;
+	font-size: 0.5em;
+	font-weight:300;
+}
+.st_price-title {
+	background-color: #4b7eae;
+}
+.st_price-item {	
+	background-color:#fff;
+}
+.st_price-footer {
+	background-color:#dddfe1;
+}
+
+
+
+/* Widgets
+--------------------------------------------------- */
+/* Recent Posts Plus widget */
+.widget_recent_entries li.posts-plus {
+    clear: both;
+	background-image:none;
+	padding-left:0;
+}
+.widget_recent_entries .wp-post-image {
+    float: left;
+    margin: 5px 15px 0 0;
+	padding: 0.250em;
+	background-color:#f6f6f6;
+	border:1px solid #d2d2d2;
+}
+.widget_recent_entries h4.posts-plus {
+	font-size: 1.125em;
+	margin-bottom: 0;
+}
+#footer-group h4.posts-plus {
+	font-size: 1.063em;
+	margin-bottom: 0.250em;
+}
+.widget_recent_entries li.posts-plus p {
+    margin: 5px 0;
+}
+
+.posts-plus-date {
+	font-size: 11px; 	
+	display:block; 	
+	clear:right; 
+	line-height: 14px;
+}
+/* Widgetkit Gallery */
+.st_wkgallery {
+	padding: 2em 0;
+}
+.st_wkgallery-tn {
+	display:inline-block;
+	padding: 0.563em;
+	background-color:#f6f6f6;
+	border:1px solid #d2d2d2;
+	margin-bottom: 2em;
+}
+
+/* Widgetkit Twitter */
+#footer-group .wk-twitter-list article {
+	border-color:#4c4e52;
+}
+#footer-group .wk-twitter .image {
+	padding:0;
+	border:3px solid #4c4e52;
+}
+/* Contact form 7 */
+.st_contact {
+	margin-bottom: 5px;
+}
+
+
+/* Portfolio
+--------------------------------------------------- */
+.st_portfolio.imageframe {
+	margin-bottom: 1.188em;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.st_portfolio-menu-label {
+	font-weight: bold;
+}
+#st-portfolio-row {
+	margin-bottom: 2em;
+	font-size: 1.125em;
+}
+ul#st_portfolio-menu {
+	margin:0;
+	padding:0;
+}
+ul#st_portfolio-menu  li {
+	list-style: none;
+	display: inline;
+	margin-left: 0.5em;
+}
+ul#st_portfolio-menu li:after {
+	content: '\002F';
+	margin-left: 0.5em;
+}
+ul#st_portfolio-menu  li:first-child,
+#portfolio-menu  {
+	margin-left: 0;
+}
+
+@media (min-width: 320px) and (max-width: 979px) {
+	.caption.st_portfolio,
+	header.st_portfolio {
+		text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+

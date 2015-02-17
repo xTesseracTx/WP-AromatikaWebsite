@@ -1,0 +1,58 @@
+*** Image List Layout ***
+
+You can setup a page with what is called image lists, using an unordered list <ul> for your layout. You can have as many images as you want by simply adding more <li> to the code below. The sample below is based on the "Meet the Team" page from the live demo site which gives a 3 column layout when using span4 as the class to each <li> tag. As you add more <li> to the source, it simply creates a second row for you as it wraps down.
+
+If you want 4 columns, change the span4 to span3. This is because the theme is based on a 12-column grid layout and so span3 x 4 = 12.
+
+What you add for content is up to you, but some html basic knowledge is needed if you change from the sample snippet below.
+
+
+
+*** Individual ***
+
+<div class="thumbnail">
+<div class="imageframe"><img class="center" alt="image 3" src="path-to-thumbnail.jpg"></div>
+<div class="caption">
+<h3>Tina Porta</h3>
+<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+<p><a class="btn btn-small" href="#">Tina</a></p>
+</div>
+</div>
+
+
+*** Group ***
+
+<div class="row-fluid">
+<ul class="thumbnails">
+<li class="span4">
+<div class="thumbnail">
+<div class="imageframe"><img class="center" alt="image 3" src="path-to-thumbnail.jpg"></div>
+<div class="caption">
+<h3>Tina Porta</h3>
+<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+<p><a class="btn btn-small" href="#">Tina</a></p>
+</div>
+</div>
+</li>
+<li class="span4">
+<div class="thumbnail">
+<div class="imageframe"><img class="center" alt="image 2" src="path-to-thumbnail.jpg"></div>
+<div class="caption">
+<h3>Jeremy Lorem</h3>
+<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+<p><a class="btn btn-small" href="#">Jeremy</a></p>
+</div>
+</div>
+</li>
+<li class="span4">
+<div class="thumbnail">
+<div class="imageframe"><img class="center" alt="image1" src="path-to-thumbnail.jpg"></div>
+<div class="caption">
+<h3>Justin Delore</h3>
+<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+<p><a class="btn btn-small" href="#">Justin</a></p>
+</div>
+</div>
+</li>
+</ul>
+</div>

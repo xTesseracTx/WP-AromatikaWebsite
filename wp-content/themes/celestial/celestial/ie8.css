@@ -1,0 +1,17 @@
+/* CSS Document */
+
+#left-column li,
+#right-column li {
+	border-bottom:1px solid #dedede;
+	line-height:18px;
+	line-height:1.313em;
+	padding:8px 0 8px 20px;
+	background: url('images/sprite-list.png') 0 -714px no-repeat;
+}
+
+h2.entry-date {
+	font-size: 12px;
+	font-size: 0.938em;
+	line-height: 18px;
+	line-height: 1.250em;
+}

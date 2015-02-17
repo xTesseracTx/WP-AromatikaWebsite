@@ -1,0 +1,16 @@
+*** Recent Posts - Categories ***
+
+
+
+{
+
+"cat": "1"
+
+}
+
+
+
+*** Recent Posts - Template ***
+
+<li style="margin:6px 0;" class="posts-plus">{THUMBNAIL}<h4 class="posts-plus"><a title="{TITLE_RAW}" href="{PERMALINK}">{TITLE}</a></h4><span class="posts-plus-date">{DATE}</span>{EXCERPT}</li>
+

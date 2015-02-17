@@ -1,0 +1,9 @@
+*** Call to Action ***
+
+Widget Title:  This is Your Call to Action
+
+Widget Content:
+
+<h2 class="h2-cta">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mattis suscipit libero, non mattis justo condimentum sed. Nam convallis feugiat nibh, eu pulvinar dolor pretium asagittis ac lacus ut!
+</h2>

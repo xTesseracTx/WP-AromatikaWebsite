@@ -1,0 +1,7 @@
+*** Drop Cap ***
+
+<div class="st_dropcap">A</div>
+
+If you want to change the background colour of the drop cap, simply do inline styling like this:
+
+<div class="st_dropcap" style="background-color: #649b3f;">A</div>

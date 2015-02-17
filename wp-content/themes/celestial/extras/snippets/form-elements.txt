@@ -1,0 +1,22 @@
+*** Button - Regular ***
+
+<button type="button">Default button</button>
+
+*** Button - Large ***
+
+<button class="btn-large" type="button">Large button</button>
+
+
+*** Button - Small ***
+
+<button class="btn-small" type="button">Small button</button>
+
+
+*** Button - Mini ***
+
+<button class="btn-mini" type="button">Mini button</button>
+
+
+*** Text Link as a Button ***
+
+<a class="btn" href="#">Text Button</a>

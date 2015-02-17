@@ -1,0 +1,130 @@
+/* Copyright (C) YOOtheme GmbH, YOOtheme Proprietary Use License (http://www.yootheme.com/license) */
+
+/*
+ * Widgetkit Slideshow: Celestial Style
+ */
+
+/* Caption
+----------------------------------------------------------------------------------------------------*/
+.wk-slideshow-celestial .caption {
+	width:auto;
+	padding: 1.5em 0;
+	bottom:6em;
+	left:0;
+	background:none;
+}
+.wk-slideshow-celestial h1 {
+	display:inline-block;
+	margin-left:20%;
+	padding:0.188em 1.125em;
+	font:italic 2em/1.5em merienda, georgia;
+	color:#fff;
+}
+.wk-slideshow-celestial h2 {
+	display:inline-block;
+	font:normal 1.313em/1em arial,sans-serif;
+	margin-left: 23%;
+	padding:0.188em 1.250em;
+	text-transform:uppercase;
+}
+.wk-slideshow-celestial .caption p {
+	margin-left: 24%;
+	margin-bottom:0;
+	font-size: 1.25em;
+	line-height:1.2em;
+	text-shadow: 1px 1px 5px #000;
+}
+.wk-slideshow-celestial img.alignnone {
+	margin:0;
+}
+
+/* Navigation
+----------------------------------------------------------------------------------------------------*/
+.wk-slideshow-celestial .slidernav {
+	width:100%;
+	position: absolute;
+	text-align: center;
+	bottom:3%;
+	z-index: 1000;
+}
+.wk-slideshow-celestial .nav {
+	position: relative;
+	padding-top:5px;
+	text-align: center;
+	margin:auto;
+}
+
+.wk-slideshow-celestial .nav li {
+	display: inline-block;
+	margin-left: 5px;
+}
+.wk-slideshow-celestial .nav li:first-child { margin-left: 0; }
+
+.wk-slideshow-celestial .nav span {
+	width: 16px;
+	height: 15px;
+	background: url(images/nav.png) 0 0 no-repeat;
+	overflow: hidden;
+}
+.wk-slideshow-celestial .nav span:hover { background-position: 0 -30px; }
+.wk-slideshow-celestial .nav span:active { background-position: 0 -45px; }
+.wk-slideshow-celestial .nav .active span { background-position: 0 -15px; }
+
+/* Buttons
+----------------------------------------------------------------------------------------------------*/
+
+.wk-slideshow-celestial > div { position: relative; }
+
+.wk-slideshow-celestial > div:hover .next,
+.wk-slideshow-celestial > div:hover .prev {
+	top: 50%;
+	width: 50px;
+	height: 50px;
+	margin-top: -25px;
+	background: url(images/buttons.png) 0 50px no-repeat;
+	z-index:6;
+}
+
+.wk-slideshow-celestial > div:hover .next {
+	right: 30px;
+	background-position: 0 0;
+}
+
+.wk-slideshow-celestial > div:hover .prev {
+	left: 30px;
+	background-position: 0 -50px;
+}
+
+
+/* Responsive
+----------------------------------------------------------------------------------------------------*/
+
+/* Only Touch Devices */
+@media (max-width:768px) {
+	.wk-slideshow-celestial .caption {bottom:2em; }
+	.wk-slideshow-celestial h1 {margin-left: 10%;}
+	.wk-slideshow-celestial h2 {margin-left: 12%;}
+	.wk-slideshow-celestial .caption p {margin-left: 14%;}
+	.wk-slideshow-celestial .slidernav {bottom: -5%;}
+	.wk-slideshow-celestial .next,
+	.wk-slideshow-celestial .prev {}
+}
+
+@media (max-width: 480px) {
+	.wk-slideshow-celestial .caption { bottom:1em;}
+	.wk-slideshow-celestial h1 {margin-left: 5%;}
+	.wk-slideshow-celestial h2 {margin-left: 7%;}
+	.wk-slideshow-celestial .next,
+	.wk-slideshow-celestial .prev,
+	.wk-slideshow-celestial .caption p { display: none; }
+	.wk-slideshow-celestial .slidernav {bottom: -15%;}
+}
+@media (max-width: 320px) {
+	.wk-slideshow-celestial .caption,
+	.wk-slideshow-celestial h1,
+	.wk-slideshow-celestial h2,
+	.wk-slideshow-celestial .next,
+	.wk-slideshow-celestial .prev,
+	.wk-slideshow-celestial .caption p { display: none; }
+	.wk-slideshow-celestial .slidernav {bottom: -20%;}
+}

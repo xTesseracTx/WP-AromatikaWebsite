@@ -1,0 +1,47 @@
+*** Tables with Headings ***
+
+Below is a snippet that gives you a 2 column, 2 row table layout with the default colour of grey for your header.
+
+<table class="st_table st_table-bordered st_table-striped table">
+<thead>
+<tr>
+<th>Heading One</th>
+<th>Heading Two</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Some content here</td>
+<td>Some content here</td>
+</tr>
+<tr>
+<td>Some content here</td>
+<td>Some content here</td>
+</tr>
+</tbody>
+</table>
+
+
+
+*** Tables with a Custom Header Background Colour ***
+
+Below is a snippet that gives you a 2 column, 2 row table layout with a custom colour for your header.
+
+<table class="st_table st_table-bordered st_table-striped table">
+<thead>
+<tr style="background-color: #99cc6a; color: #fff;">
+<th>Table Heading</th>
+<th>Heading</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Some content here</td>
+<td>Some content here</td>
+</tr>
+<tr>
+<td>Some content here</td>
+<td>Some content here</td>
+</tr>
+</tbody>
+</table>

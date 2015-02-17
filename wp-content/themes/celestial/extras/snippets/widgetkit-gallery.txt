@@ -1,0 +1,28 @@
+*** Widgetkit Gallery ***
+
+You have the option of using the image list layout to create a gallery, but with the added features of Widgetkit to give you a nice thumbnail overlay and popup lightbox for viewing images.
+
+Remember that this theme is built on a 12-column grid layout. So you can decide how many columns to have in your gallery. I recommend creating your thumbnails  from the full sized image, and then uploading them to your Media Library. I also recommend making your thumbnails the same size for consistent layout.
+
+If you want more than one row for your gallery, simply copy the code below to a new line in your editor text view. This sample snippet below gives you a 4 column/1 row gallery.
+
+<div class="st_wkgallery">
+<div class="row-fluid">
+<ul class="thumbnails">
+<li class="span3"><span class="st_wkgallery-tn"><a title="This is a Title of Image" href="path-to-your-full-size-image.jpg"><img alt="Lightbox Image" src="path-to-your-thumbnail-image.jpg" /></a></span></li>
+<li class="span3"><span class="st_wkgallery-tn"><a title="This is a Title of Image" href="path-to-your-full-size-image.jpg"><img alt="Lightbox Image" src="path-to-your-thumbnail-image.jpg" /></a></span></li>
+<li class="span3"><span class="st_wkgallery-tn"><a title="This is a Title of Image" href="path-to-your-full-size-image.jpg"><img alt="Lightbox Image" src="path-to-your-thumbnail-image.jpg" /></a></span></li>
+<li class="span3"><span class="st_wkgallery-tn"><a title="This is a Title of Image" href="path-to-your-full-size-image.jpg"><img alt="Lightbox Image" src="path-to-your-thumbnail-image.jpg" /></a></span></li>
+</ul>
+</div>
+</div>
+
+
+**** Spotlight ****
+
+data-spotlight="on"
+
+
+*** Light Box ***
+
+data-lightbox="group:mygroup1; titlePosition:over; padding:0"

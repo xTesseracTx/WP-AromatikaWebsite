@@ -1,0 +1,28 @@
+*** Divider - Shadow ***
+
+<div class="st_dividers st_shadow">&nbsp;</div>
+
+
+*** Divider - Double Lines ***
+
+<div class="st_dividers st_double">&nbsp;</div>
+
+
+*** Divider - Single Line ***
+
+<div class="st_dividers st_single">&nbsp;</div>
+
+
+*** Divider - Dashed ***
+
+<div class="st_dividers st_dashed">&nbsp;</div>
+
+
+*** Divider - Dotted ***
+
+<div class="st_dividers st_dotted">&nbsp;</div>
+
+
+*** Divider - No Style ***
+
+<div class="st_dividers st_none">&nbsp;</div>

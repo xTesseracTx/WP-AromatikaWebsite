@@ -1,0 +1,149 @@
+*** List - Small Circle ***
+
+<ul class="st_small_circle">
+<li>Fusce adipiscing tellus a lacus pretium mattis.</li>
+<li>Aliquam porttitor mattis nisi non sagittis.</li>
+<li>Vivamus hendrerit purus eget turpis dictum.</li>
+</ul>
+
+*** List - Leading Zero ***
+
+<ol class="st_decimal-leading-zero">
+<li>Fusce adipiscing tellus a lacus pretium mattis.</li>
+<li>Aliquam porttitor mattis nisi non sagittis.</li>
+<li>Vivamus hendrerit purus eget turpis dictum.</li>
+</ol>
+
+
+*** List - Upper Alpha ***
+
+<ol class="st_upper-alpha">
+<li>Fusce adipiscing tellus a lacus pretium mattis.</li>
+<li>Aliquam porttitor mattis nisi non sagittis.</li>
+<li>Vivamus hendrerit purus eget turpis dictum.</li>
+</ol>
+
+
+*** List - Lower Alpha ***
+
+<ol class="st_lower-alpha">
+<li>Fusce adipiscing tellus a lacus pretium mattis.</li>
+<li>Aliquam porttitor mattis nisi non sagittis.</li>
+<li>Vivamus hendrerit purus eget turpis dictum.</li>
+</ol>
+
+*** Image List - Dot ***
+
+<ul class="st_dot">
+<li>Fusce adipiscing tellus a lacus pretium mattis.</li>
+<li>Aliquam porttitor mattis nisi non sagittis.</li>
+<li>Morbi tempor enim vel leo varius elementum.</li>
+</ul>
+
+
+*** Image List - Dash ***
+
+<ul class="st_dash">
+<li>Fusce adipiscing tellus a lacus pretium mattis.</li>
+<li>Aliquam porttitor mattis nisi non sagittis.</li>
+<li>Morbi tempor enim vel leo varius elementum.</li>
+</ul>
+
+
+*** Image List - Square ***
+
+<ul class="st_square">
+<li>Fusce adipiscing tellus a lacus pretium mattis.</li>
+<li>Aliquam porttitor mattis nisi non sagittis.</li>
+<li>Morbi tempor enim vel leo varius elementum.</li>
+</ul>
+
+
+*** Image List - Arrow ***
+
+<ul class="st_arrow">
+<li>Fusce adipiscing tellus a lacus pretium mattis.</li>
+<li>Aliquam porttitor mattis nisi non sagittis.</li>
+<li>Morbi tempor enim vel leo varius elementum.</li>
+</ul>
+
+
+*** Image List - Square Arrow ***
+
+<ul class="st_square-arrow">
+<li>Fusce adipiscing tellus a lacus pretium mattis.</li>
+<li>Aliquam porttitor mattis nisi non sagittis.</li>
+<li>Morbi tempor enim vel leo varius elementum.</li>
+</ul>
+
+
+*** Image List - Round Arrow ***
+
+<ul class="st_round-arrow">
+<li>Fusce adipiscing tellus a lacus pretium mattis.</li>
+<li>Aliquam porttitor mattis nisi non sagittis.</li>
+<li>Morbi tempor enim vel leo varius elementum.</li>
+</ul>
+
+
+*** Image List - Circles ***
+
+<ul class="st_circles">
+<li>Fusce adipiscing tellus a lacus pretium mattis.</li>
+<li>Aliquam porttitor mattis nisi non sagittis.</li>
+<li>Morbi tempor enim vel leo varius elementum.</li>
+</ul>
+
+
+*** Image List - Grid ***
+
+<ul class="st_grid">
+<li>Fusce adipiscing tellus a lacus pretium mattis.</li>
+<li>Aliquam porttitor mattis nisi non sagittis.</li>
+<li>Morbi tempor enim vel leo varius elementum.</li>
+</ul>
+
+
+*** Image List - Checkmark ***
+
+<ul class="st_checkmark">
+<li>Fusce adipiscing tellus a lacus pretium mattis.</li>
+<li>Aliquam porttitor mattis nisi non sagittis.</li>
+<li>Morbi tempor enim vel leo varius elementum.</li>
+</ul>
+
+
+*** Image List - Circle ***
+
+<ul class="st_circle">
+<li>Fusce adipiscing tellus a lacus pretium mattis.</li>
+<li>Aliquam porttitor mattis nisi non sagittis.</li>
+<li>Morbi tempor enim vel leo varius elementum.</li>
+</ul>
+
+
+
+
+
+*** Definition List ***
+
+<dl>
+<dt>Definition List Title</dt>
+<dd>This is a definition list division.</dd>
+<dt>Definition</dt>
+<dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed aliquet eros non massa viverra eu semper nulla pellentesque. Suspendisse potenti.</dd>
+<dt>Gallery</dt>
+<dd>Donec nec erat non nibh tincidunt posuere. In sodales porta urna eget faucibus. Quisque eu ipsum dolor, at pellentesque diam. Vestibulum vitae mi adipiscing lorem fringilla condimentum. Fusce et nisi est, at euismod odio.</dd>
+<dt>Gravatar</dt>
+<dd>Nam urna ante, porta vel lacinia a, gravida eu magna. Nunc vitae ipsum leo. Phasellus hendrerit quam in tortor elementum sed luctus lectus varius. Etiam neque tortor, pretium et commodo eget, dignissim ac tellus. Class aptent taciti sociosqu ad litora torquent per conubia</dd>
+</dl>
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,125 @@
+Keep a change log to describe all the changes made to program source files. The purpose of this is so that people investigating bugs in the future will know about the changes that might have introduced the bug. Often a new bug can be found by looking at what was recently changed. More importantly, change logs can help you eliminate conceptual inconsistencies between different parts of a program, by giving you a history of how the conflicting concepts arose and who they came from.
+
+Copyright 2012-2013 StyledThemes.com
+
+	
+Changelog Legend:
+----
+
+[+] = Added
+[*] = Changed
+[^] = Moved
+[=] = No Changes
+[x] = Deleted
+[!] = Bugs
+
+Versioning Legend: 1.0.0
+----
+
+MAJOR version when you make major changes,
+MINOR version when you add features or functions
+PATCH version when you make bug fixes
+
+----
+
+
+(January 22, 2014) Version 2.5.3 Styled Themes <www.styledthemes.com>
+[!] Fixed the contact form fields to be more responsive
+[+] Added new html snippets to the extras folder in the download
+[!] Fixed the image styling where the background was extending wider than the image
+[*] Changed the showcase and banners to be centered.
+[!] Fixed post navigation that wasn't getting translated on the single post view
+[*] Updated the celestial.pot file
+
+
+----
+
+(December 23, 2013) Version 2.5.2 Styled Themes <www.styledthemes.com>
+[+] Added a new feature that enables/disables the featured image on the full post view
+[*] Updated the celestial.pot language file
+
+----
+
+(December 23, 2013) Version 2.4.2 Styled Themes <www.styledthemes.com>
+[!] Fixed the missing excerpts from portfolio post items
+[!] Fixed the portfolio language translation strings using the wrong theme name
+[+] Added a link to portfolio featured image thumbnails.
+[*] Updated the celestial.pot language file
+
+----
+
+(November 21, 2013) Version 2.4.1 Styled Themes <www.styledthemes.com>
+[!] Added a fix to images with captions overflowing mobile screens.
+[!] Fixed the blog post navigation which was not responsive.
+[!] Fixed the Pricing Table snippet which was missing the href 
+
+----
+
+(October 22, 2013) Version 2.4.0 Styled Themes <www.styledthemes.com>
+[+] Added more support for ie8
+[*] Changed from modernizr.js to respond.js and added html5.js to support ie8
+[+] Added ie8.css for special stylesheet conditions (only when using ie8)
+[*] Changed aside containers to div containers for widgets for ie8 support
+[!] Removed a background colour when hovering on the submenus for the mobile view
+[+] Added the option of using content with your read more or an excerpt
+[+] Added the ability to choose your excerpt length
+[+] Added the ability to use a custom Copyright name instead of the default site title
+[*] Updated the celestial.pot language file
+
+----
+
+(October 21, 2013) Version 2.3.6 Styled Themes <www.styledthemes.com>
+[!] Fixed the hide curve theme option as it was not working
+[!] Fixed the social bar theme options which were not working 100%
+[+] Added code for social links to open in new window or tab
+
+----
+
+(September 30, 2013) Version 2.3.5 Styled Themes <www.styledthemes.com>
+[+] - Added woocommerce support with a right sidebar page template woocommerce.php
+[+] - Added the ability to hide page titles
+[*] - Updated the celestial.pot language file
+
+
+----
+
+(August 22, 2013) Version 2.3.4 Styled Themes <www.styledthemes.com>
+[+] Added the edit link to the front-end of pages
+[*] Updated the celestial.pot language file
+
+----
+
+(July 18, 2013) Version 2.3.3 Styled Themes <www.styledthemes.com>
+[!] Fixed the padding theme settings for the showcase and banner containers
+
+----
+
+
+(July 17, 2013) Version 2.3.2 Styled Themes <www.styledthemes.com>
+[+] Added a theme option to enable the social bar background lines - default is off.
+
+----
+
+(July 17, 2013) Version 2.2.2 Styled Themes <www.styledthemes.com>
+[*] Changed how the blog featured image is displayed.
+
+----
+
+
+(July 17, 2013) Version 2.2.1 Styled Themes <www.styledthemes.com>
+[!] Fixed the mobile view styling to center and remove bullet points
+[+] Added the ability to disable the showcase curved graphic to the customizer
+[*] Updated the language .pot file
+
+----
+
+(July 15, 2013) Version 2.1.0 Styled Themes <www.styledthemes.com>
+[!] Fixed logo issue of not being able to update it and site title, description. 
+[!] Fixed Footer copyright
+
+----
+
+(July 15, 2013) Version 2.0.0 Styled Themes <www.styledthemes.com>
+Initial Release
+
+----

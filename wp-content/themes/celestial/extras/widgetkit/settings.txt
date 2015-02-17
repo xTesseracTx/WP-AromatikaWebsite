@@ -1,0 +1,10 @@
+** Slideshow Settings **
+
+You can change settings to your own preferences, but the following settings are recommended.
+
+Style = celestial
+Autoplay = Yes
+Width = 1920
+Height = 540
+Navigation = Show
+Buttons = Show

@@ -1,0 +1,17 @@
+*** Labels ***
+
+<span class="st_label">Label</span>
+
+*** Labels with Colour ***
+
+<span class="st_label" style="background-color: #99cc6a; color: #ffffff;">Label</span>
+
+
+
+*** Highlight ***
+
+<span class="st_highlight">some text</span>
+
+*** Highlight with Colour ***
+
+<span class="st_highlight" style="background-color: #99cc6a; color: #ffffff;">some text</span>

@@ -1,0 +1,36 @@
+*** Progress Bar ***
+
+Changing the bar's width is done with the inline style selector of width.
+
+<div class="st_progress">
+<div class="st_bar" style="width: 60%;">Single Bar at 60%</div>
+</div>
+
+
+*** Progress Bar with Custom Colour ***
+
+<div class="st_bar" style="width: 60%; background-color: #a0ce4e; color: #ffffff;">Green at 60%</div>
+
+
+*** Stacked Progress Bars ***
+
+<div class="st_progress">
+<div class="st_bar" style="width: 35%; background-color: #a0ce4e; color: #ffffff;">35%</div>
+<div class="st_bar" style="width: 20%; background-color: #dba43a; color: #ffffff;">20%</div>
+<div class="st_bar" style="width: 10%; background-color: #da5f55; color: #ffffff;">15%</div>
+</div>
+
+
+*** Multiple Progress Bars ***
+
+You can have as many bars as you want by adding each snippet to a new line and make any custom colour changes that you want.
+
+<div class="st_progress">
+<div class="st_bar" style="width: 20%; background-color: #6bbbe3; color: #ffffff;">Blue at 20%</div>
+</div>
+<div class="st_progress">
+<div class="st_bar" style="width: 40%; background-color: #a0ce4e; color: #ffffff;">Green at 40%</div>
+</div>
+<div class="st_progress">
+<div class="st_bar" style="width: 60%; background-color: #dba43a; color: #ffffff;">Orange at 60%</div>
+</div>

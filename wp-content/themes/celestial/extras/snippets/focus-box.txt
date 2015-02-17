@@ -1,0 +1,59 @@
+*** Focus Box ***
+
+<div class="st_focus-box">
+<h4>This is a Focus Box</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec consectetur ipsum. Suspendisse iaculis metus eu orci semper pretium. Etiam commodo arcu vitae dui viverra tristique.&nbsp;Donec elit eros, mattis eget placerat vel, bibendum quis metus. Vivamus interdum condimentum posuere. Aliquam sollicitudin cursus tellus eu tempus. Maecenas a dolor libero. Phasellus malesuada nunc ipsum, nec placerat arcu.</p>
+</div>
+
+
+*** Focus Box with Shadow ***
+
+<div class="st_focus-box shadow">
+<h4>This is a Focus Box with Shadow</h4>
+<p>Add your content here.</p>
+</div>
+
+
+*** Focus Box Centered ***
+
+<div class="st_focus-box center">
+<h4>This is a Focus Box Centered</h4>
+<p>Add your content here.</p>
+</div>
+
+
+*** Focus Box Short Aligned Left - Default width 40% ***
+
+<div class="st_focus-box short alignleft">
+<h4>This is a Focus Box that is Short, Aligned Left</h4>
+<p>Add your content here.</p>
+</div>
+
+
+*** Focus Box Short Aligned Right - Default width 40% ***
+
+<div class="st_focus-box short alignright">
+<h4>This is a Focus Box that is Short, Aligned Right</h4>
+<p>Add your content here.</p>
+</div>
+
+
+
+
+
+
+*** Changing Border Colour ***
+To change colours for your box border, for example the top border, do inline styling. You can also combine other styles such as adding a background with a different border colour, or even changing text colour, etc.
+
+<div class="st_focus-box" style="border-top-color: #99cc6a;">
+<h4>This is a Focus Box Custom Colour</h4>
+<p>Add your content here.</p>
+</div>
+
+*** Changing the Background Colour ***
+To add a background colour box, use inline styling:
+
+<div class="st_focus-box" style="background-color: #f6f6f6;">
+<h4>This is a Focus Box with Background</h4>
+<p>Add your content here</p>
+</div>

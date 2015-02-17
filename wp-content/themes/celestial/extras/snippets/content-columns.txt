@@ -1,0 +1,63 @@
+*** 2 Columns ***
+
+<div class="row-fluid"> 
+<div class="span6"> <h3><strong>One</strong> Half</h3> 
+<p>Add your own content here.</p> </div> 
+<div class="span6"> <h3><strong>One</strong> Half</h3> 
+<p>Add your own content here.</p> </div> 
+</div>
+
+
+*** 3 Columns ***
+
+<div class="row-fluid"> 
+<div class="span4"> <h3><strong>Span</strong> 4</h3> 
+<p>Add your own content here.</p> </div> 
+<div class="span4"> <h3><strong>Span</strong> 4</h3> 
+<p>Add your own content here.</p> </div> 
+<div class="span4"> <h3><strong>Span</strong> 4</h3> 
+<p>Add your own content here.</p> </div> 
+</div>
+
+*** 4 Columns ***
+
+<div class="row-fluid"> 
+<div class="span3"> <h3><strong>Span</strong> 3</h3> 
+<p>Add your own content here.</p> </div> 
+<div class="span3"> <h3><strong>Span</strong> 3</h3> 
+<p>Add your own content here.</p> </div> 
+<div class="span3"> <h3><strong>Span</strong> 3</h3> 
+<p>Add your own content here.</p> </div> 
+<div class="span3"> <h3><strong>Span</strong> 3</h3> 
+<p>Add your own content here.</p> </div> </div>
+
+
+*** 6 Columns ***
+
+<div class="row-fluid"> 
+<div class="span2"> <h3><strong>Span</strong> 2</h3> 
+<p>Add your own content here.</p> </div> 
+<div class="span2"> <h3><strong>Span</strong> 2</h3> 
+<p>Add your own content here.</p> </div> 
+<div class="span2"> <h3><strong>Span</strong> 2</h3> 
+<p>Add your own content here.</p> </div> 
+<div class="span2"> <h3><strong>Span</strong> 2</h3> 
+<p>Add your own content here.</p> </div> 
+<div class="span2"> <h3><strong>Span</strong> 2</h3> 
+<p>Add your own content here.</p> </div> 
+<div class="span2"> <h3><strong>Span</strong> 2</h3> 
+<p>Add your own content here.</p> </div>
+</div>
+
+
+*** Flexible Column Counts ***
+
+This one has two columns with one as span4 and the other as span8, but you can have any combination of columns as long as the total of columns equal 12 because this theme uses a 12-column grid layout. So this sample below is span4 + span8 = 12
+
+<div class="row-fluid"> 
+<div class="span4"> <h3><strong>Span</strong> 4</h3> 
+<p>Add your own content here.</p> </div> 
+<div class="span8"> <h3><strong>One</strong> 8</h3> 
+<p>Add your own content here.</p></div>
+</div> 
+

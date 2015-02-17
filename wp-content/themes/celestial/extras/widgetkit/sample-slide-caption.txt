@@ -1,0 +1,3 @@
+** Slide Sample **
+
+<h1 style="background-color: #000; color:#fff;">Exceptionally Gorgeous</h1><br /><h2 style="background-color: #67a6e4; color:#fff;">...and flexible in every way possible!</h2><p>Built with WordPress standards, Celestial gives<br />you the next generation of design and style.</p>

@@ -1,0 +1,39 @@
+*** Contact page Snippet ***
+
+Replace the form shortcode with your own that looks similar to this:
+[contact-form-7 id="473" title="Contact form 1"]
+
+
+*** For your Contact Page ***
+
+<p>Welcome to the Celestial Reloaded contact page. Ultimately everyone will have their own contact page in mind, but for the purpose of this demo website, I put together a sample contact page and form using basic HTML, inline columns, and a forms plugin. This form is not active, but is here to represent one of many layout possibilities available to you.</p>
+<div class="row-fluid">
+<div class="span5">
+<h4>Our Office</h4>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras cursus eros vitae est bibendum lobortis mattis nibh ornare. Fusce at eros dui.</p>
+<p>Telephone: (555) 555-1234<br /> Fax: (555) 555-5678</p>
+<h5>Address</h5>
+<address>55555 Your Street,<br /> Vancouver, British Columbia<br /> Canada V5E 4M3</address></div>
+<div class="span7">
+<h4>Contact Form</h4>
+<p>[contact-form-7 id="473" title="Contact form 1"]</p>
+</div>
+</div>
+
+
+*** Contact Form 7 Form Code ***
+
+<div class="st_contact">Your Name (required)<br />
+    [text* your-name 0x class:input-large] </div>
+
+<div class="st_contact">Your Email (required)<br />
+    [email* your-email 0x class:input-large] </div>
+
+<div class="st_contact">Subject<br />
+    [text your-subject 0x class:input-large] </div>
+
+<div class="st_contact">Your Message<br />
+[textarea textarea-714 0x class:input-xxlarge]
+</div>
+
+<div class="st_contact">[submit "Submit Comment"]</div>
